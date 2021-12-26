@@ -11,27 +11,7 @@
 		F8EE81E6277914FF00F7ACE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE81E5277914FF00F7ACE6 /* ContentView.swift */; };
 		F8EE81E82779150000F7ACE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EE81E72779150000F7ACE6 /* Assets.xcassets */; };
 		F8EE81EB2779150000F7ACE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EE81EA2779150000F7ACE6 /* Preview Assets.xcassets */; };
-		F8EE81F52779150000F7ACE6 /* FuturesAndPromisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE81F42779150000F7ACE6 /* FuturesAndPromisesTests.swift */; };
-		F8EE81FF2779150000F7ACE6 /* FuturesAndPromisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE81FE2779150000F7ACE6 /* FuturesAndPromisesUITests.swift */; };
-		F8EE82012779150000F7ACE6 /* FuturesAndPromisesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE82002779150000F7ACE6 /* FuturesAndPromisesUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F8EE81F12779150000F7ACE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8EE81D8277914FF00F7ACE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8EE81DF277914FF00F7ACE6;
-			remoteInfo = FuturesAndPromises;
-		};
-		F8EE81FB2779150000F7ACE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8EE81D8277914FF00F7ACE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8EE81DF277914FF00F7ACE6;
-			remoteInfo = FuturesAndPromises;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F8EE81E0277914FF00F7ACE6 /* FuturesAndPromises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuturesAndPromises.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +19,10 @@
 		F8EE81E5277914FF00F7ACE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8EE81E72779150000F7ACE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8EE81EA2779150000F7ACE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F8EE81F02779150000F7ACE6 /* FuturesAndPromisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuturesAndPromisesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8EE81F42779150000F7ACE6 /* FuturesAndPromisesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesAndPromisesTests.swift; sourceTree = "<group>"; };
-		F8EE81FA2779150000F7ACE6 /* FuturesAndPromisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuturesAndPromisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8EE81FE2779150000F7ACE6 /* FuturesAndPromisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesAndPromisesUITests.swift; sourceTree = "<group>"; };
-		F8EE82002779150000F7ACE6 /* FuturesAndPromisesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesAndPromisesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8EE81DD277914FF00F7ACE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8EE81ED2779150000F7ACE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8EE81F72779150000F7ACE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				F8EE81E2277914FF00F7ACE6 /* FuturesAndPromises */,
-				F8EE81F32779150000F7ACE6 /* FuturesAndPromisesTests */,
-				F8EE81FD2779150000F7ACE6 /* FuturesAndPromisesUITests */,
 				F8EE81E1277914FF00F7ACE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				F8EE81E0277914FF00F7ACE6 /* FuturesAndPromises.app */,
-				F8EE81F02779150000F7ACE6 /* FuturesAndPromisesTests.xctest */,
-				F8EE81FA2779150000F7ACE6 /* FuturesAndPromisesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +67,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F8EE81F32779150000F7ACE6 /* FuturesAndPromisesTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8EE81F42779150000F7ACE6 /* FuturesAndPromisesTests.swift */,
-			);
-			path = FuturesAndPromisesTests;
-			sourceTree = "<group>";
-		};
-		F8EE81FD2779150000F7ACE6 /* FuturesAndPromisesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8EE81FE2779150000F7ACE6 /* FuturesAndPromisesUITests.swift */,
-				F8EE82002779150000F7ACE6 /* FuturesAndPromisesUITestsLaunchTests.swift */,
-			);
-			path = FuturesAndPromisesUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,42 +87,6 @@
 			productReference = F8EE81E0277914FF00F7ACE6 /* FuturesAndPromises.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8EE81EF2779150000F7ACE6 /* FuturesAndPromisesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8EE82072779150000F7ACE6 /* Build configuration list for PBXNativeTarget "FuturesAndPromisesTests" */;
-			buildPhases = (
-				F8EE81EC2779150000F7ACE6 /* Sources */,
-				F8EE81ED2779150000F7ACE6 /* Frameworks */,
-				F8EE81EE2779150000F7ACE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8EE81F22779150000F7ACE6 /* PBXTargetDependency */,
-			);
-			name = FuturesAndPromisesTests;
-			productName = FuturesAndPromisesTests;
-			productReference = F8EE81F02779150000F7ACE6 /* FuturesAndPromisesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F8EE81F92779150000F7ACE6 /* FuturesAndPromisesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8EE820A2779150000F7ACE6 /* Build configuration list for PBXNativeTarget "FuturesAndPromisesUITests" */;
-			buildPhases = (
-				F8EE81F62779150000F7ACE6 /* Sources */,
-				F8EE81F72779150000F7ACE6 /* Frameworks */,
-				F8EE81F82779150000F7ACE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8EE81FC2779150000F7ACE6 /* PBXTargetDependency */,
-			);
-			name = FuturesAndPromisesUITests;
-			productName = FuturesAndPromisesUITests;
-			productReference = F8EE81FA2779150000F7ACE6 /* FuturesAndPromisesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					F8EE81DF277914FF00F7ACE6 = {
 						CreatedOnToolsVersion = 13.2;
-					};
-					F8EE81EF2779150000F7ACE6 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = F8EE81DF277914FF00F7ACE6;
-					};
-					F8EE81F92779150000F7ACE6 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = F8EE81DF277914FF00F7ACE6;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				F8EE81DF277914FF00F7ACE6 /* FuturesAndPromises */,
-				F8EE81EF2779150000F7ACE6 /* FuturesAndPromisesTests */,
-				F8EE81F92779150000F7ACE6 /* FuturesAndPromisesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +127,6 @@
 			files = (
 				F8EE81EB2779150000F7ACE6 /* Preview Assets.xcassets in Resources */,
 				F8EE81E82779150000F7ACE6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8EE81EE2779150000F7ACE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8EE81F82779150000F7ACE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,37 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8EE81EC2779150000F7ACE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8EE81F52779150000F7ACE6 /* FuturesAndPromisesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8EE81F62779150000F7ACE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8EE81FF2779150000F7ACE6 /* FuturesAndPromisesUITests.swift in Sources */,
-				F8EE82012779150000F7ACE6 /* FuturesAndPromisesUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F8EE81F22779150000F7ACE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8EE81DF277914FF00F7ACE6 /* FuturesAndPromises */;
-			targetProxy = F8EE81F12779150000F7ACE6 /* PBXContainerItemProxy */;
-		};
-		F8EE81FC2779150000F7ACE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8EE81DF277914FF00F7ACE6 /* FuturesAndPromises */;
-			targetProxy = F8EE81FB2779150000F7ACE6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F8EE82022779150000F7ACE6 /* Debug */ = {
@@ -469,82 +319,6 @@
 			};
 			name = Release;
 		};
-		F8EE82082779150000F7ACE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6J4RFMLHY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frederickjavalera.FuturesAndPromisesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuturesAndPromises.app/FuturesAndPromises";
-			};
-			name = Debug;
-		};
-		F8EE82092779150000F7ACE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6J4RFMLHY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frederickjavalera.FuturesAndPromisesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuturesAndPromises.app/FuturesAndPromises";
-			};
-			name = Release;
-		};
-		F8EE820B2779150000F7ACE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6J4RFMLHY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frederickjavalera.FuturesAndPromisesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FuturesAndPromises;
-			};
-			name = Debug;
-		};
-		F8EE820C2779150000F7ACE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6J4RFMLHY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frederickjavalera.FuturesAndPromisesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FuturesAndPromises;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,24 +336,6 @@
 			buildConfigurations = (
 				F8EE82052779150000F7ACE6 /* Debug */,
 				F8EE82062779150000F7ACE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8EE82072779150000F7ACE6 /* Build configuration list for PBXNativeTarget "FuturesAndPromisesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8EE82082779150000F7ACE6 /* Debug */,
-				F8EE82092779150000F7ACE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8EE820A2779150000F7ACE6 /* Build configuration list for PBXNativeTarget "FuturesAndPromisesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8EE820B2779150000F7ACE6 /* Debug */,
-				F8EE820C2779150000F7ACE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
